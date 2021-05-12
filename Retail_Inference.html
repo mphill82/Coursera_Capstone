@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.4.7.2 (MacOSX)"/>
+	<meta name="created" content="2021-05-11T12:02:05"/>
+	<meta name="changed" content="2021-05-12T10:55:06"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 0.79in }
+		p { margin-bottom: 0.1in; direction: ltr; color: #000000; line-height: 115%; text-align: left; orphans: 2; widows: 2; background: transparent }
+		p.western { font-family: "Liberation Serif", serif; font-size: 12pt; so-language: en-US }
+		p.cjk { font-family: "Songti SC"; font-size: 12pt; so-language: zh-CN }
+		p.ctl { font-family: "Arial Unicode MS"; font-size: 12pt; so-language: hi-IN }
+	</style>
+</head>
+<body lang="en-US" text="#000000" link="#000080" vlink="#800000" dir="ltr"><p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+<font size="7" style="font-size: 32pt">Retail Opportunity Inference
+from Nearby Cities</font></p>
+<p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+<font size="4" style="font-size: 14pt">IBM Data Science Professional
+Certificate Capstone Project</font></p>
+<p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+<font size="4" style="font-size: 14pt">Mitch Phillips</font></p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 100%; page-break-before: always">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 100%">
+<font face="Times New Roman, serif"><font size="5" style="font-size: 18pt">Introduction/
+Business Problem</font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 150%">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Across
+the country the retail landscape is constantly changing.  Factors
+like consumer trends, neighborhood revitalization, and even
+demographic migration inform the success or failure of different
+types of businesses in different neighborhoods.  Consider as an
+example Williamsburg in Brooklyn, New York.  If only the same types
+of businesses remained, we would still see mostly mom and pop shops
+and factories, rather than the coffee shops and artisanal boutiques
+you see there today.</span></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-weight: normal; line-height: 150%">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 150%">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">We
+want to determine under-represented retail categories which would
+potentially succeed in a changing neighborhood.  There are several
+key players in retail that would benefit from this insight. Property
+managers like to know what types of businesses would be wise for
+renting their space.  Entrepreneurs with an eye on a particular
+neighborhood may want to know what retail void could be filled. 
+Existing business owners seeking to expand their offerings may look
+to these insights as well.  </span></font></font>
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; font-weight: normal; line-height: 150%">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 150%">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">We
+can’t assume current retail categories operating in a neighborhood
+of interest entirely represent the customers’ wants.  Often it is
+the case that consumers don’t know what they want.  The problem
+property managers, entrepreneurs, and existing business owners face
+is looking beyond their neighborhood for deeper insight into what may
+be successful.  This problem is commonly addressed in a limited way
+by exchanging information with people in nearby cities with similar
+markets.</span></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-weight: normal; line-height: 150%">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 150%">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">To
+address the challenge of looking beyond the market of a neighborhood,
+we can compile and analyze retail location data from neighborhoods in
+nearby cities.  We make the assumption consumers in similar, nearby
+markets will behave similarly.  Based on this assumption, we can
+generate a ranked list of retail categories which have a high
+potential for success in our neighborhood.</span></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-weight: normal; line-height: 150%">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 150%">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">We
+will test this process on the neighborhood Church Hill in Richmond,
+VA.  This is a good neighborhood because it is in the early stages of
+revitalization.  It’s also in a city that sits right in the middle
+of the state surrounded by several similar cities.</span></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 100%; page-break-before: always">
+<font face="Times New Roman, serif"><font size="5" style="font-size: 18pt"><span style="font-weight: normal">Data</span></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 150%">
+<br/>
+
+</p>
+</body>
+</html>
