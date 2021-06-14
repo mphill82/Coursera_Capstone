@@ -1,6 +1,6 @@
 # Determining Retail Categories to Open in the Church Hill Neighborhood of Richmond, VA
 
-<img src="" alt="Cluster image">
+<img src="More/cluster plot.png" alt="Cluster plot">
 
 For a better view of the jupyter notebook visit: https://nbviewer.jupyter.org/github/mphill82/Retail_Inference_Capstone/blob/a21be0e099fa35c9276b7e66748b49bcefdc0472/Retail_Inference_notebook.ipynb
 
