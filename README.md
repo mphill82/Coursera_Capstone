@@ -2,7 +2,7 @@
 
 <img src="" alt="Cluster image">
 
-For a better view of the jupyter notebook visit: https://nbviewer.jupyter.org/github/mphill82/Retail_Inference_Capstone/blob/master/Retail_Inference_notebook.ipynb?flush_cache=True
+For a better view of the jupyter notebook visit: https://nbviewer.jupyter.org/github/mphill82/Retail_Inference_Capstone/blob/master/Retail_Inference_notebook.ipynb
 
 ## Introduction
 The purpose of this project is to determine new retail that should open in the Church Hill neighborhood of Richmond, VA. We will compare Church Hill's retail offerings to those of similar neighborhoods in Richmond and other nearby cities. We can gather retail data on all the neighborhoods of Richmond and seven other nearby cities and make clusters of similar neighborhoods. We can then deduce the retail categories missing from Church Hill but found in high frequency within its cluster. These retail categories would likely do well in Church Hill because they've done well in neighborhoods we've deemed similar.
