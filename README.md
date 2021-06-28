@@ -9,7 +9,7 @@ For a better view of the jupyter notebook visit [NBViewer.](https://nbviewer.jup
 ### Introduction
 The purpose of this project is to determine new retail that should open in the Church Hill neighborhood of Richmond, VA. I cluster the neighborhoods of Richmond and other nearby cities by the categories of their retail offerings. Then I deduce the retail categories missing from Church Hill but found in high frequency within its cluster. These retail categories would likely do well in Church Hill because they've done well in similar neighborhoods.
 ### Concepts Demonstrated
-Data visualization, geocoding, the Foursquare API, feature creation, PCA dimensionality reduction, and K-Means clustering.
+Data visualization, geocoding, the Foursquare API, feature extraction, PCA dimensionality reduction, and K-Means clustering.
 
 ### Final Results
 The following retail categories should open Church Hill because thet are missing and would likely do well according to my analysis.  View the jupyter notebook in the link above for more details.
